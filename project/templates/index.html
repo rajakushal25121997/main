@@ -7,26 +7,33 @@
     <link rel="stylesheet" href="/static/css/style.css"> <!-- Optional CSS -->
 </head>
 <body>
-    <h2>Upload PDF or Enter URLs</h2>
+    <div class="left-section">
+        <h2>Upload PDF or Enter URLs</h2>
 
-    <!-- PDF Upload Form -->
-    <form id="pdf-upload-form">
-        <label for="file">Upload PDF File:</label>
-        <input type="file" id="file" name="file">
-        <button type="button" id="upload-pdf-btn">Match Data</button>
-    </form>
+        <!-- URL Input Form -->
+        <form id="url-form">
+            <label for="urls">Enter URLs (separated by commas):</label>
+            <input type="text" id="urls" name="urls" placeholder="http://example.com, http://example.org">
+            <button type="button" id="load-urls-btn">Load Data</button>
+        </form>
 
-    <hr>
+        <hr>
 
-    <!-- URL Input Form -->
-    <form id="url-form">
-        <label for="urls">Enter URLs (separated by commas):</label>
-        <input type="text" id="urls" name="urls" placeholder="http://example.com, http://example.org">
-        <button type="button" id="load-urls-btn">Load Data</button>
-    </form>
+        <!-- PDF Upload Form -->
+        <form id="pdf-upload-form" style='display:none;'>
+            <label for="file">Upload PDF File:</label>
+            <input type="file" id="file" name="file">
+            <button type="button" id="upload-pdf-btn">Match Data</button>
+        </form>
+    </div>
 
-    <!-- Response Output -->
-    <div id="response-output"></div>
+    <!-- Response Output Section -->
+    <div class="right-section">
+        <h2>Response Output</h2>
+        <div id="response-output">
+            <!-- Response data will be displayed here -->
+        </div>
+    </div>
 
     <!-- JavaScript for handling API calls -->
     <script src="/static/js/script.js"></script>

@@ -1,0 +1,56 @@
+[
+    {
+        "Job Title": "private school teacher",
+        "Skill Set Required": "Teaching, Maths, Chemistry",
+        "Total Experience Required": "Not specified",
+        "Location": "India"
+    },
+    {
+        "Job Title": "school teacher",
+        "Skill Set Required": "Teaching, Maths, Chemistry",
+        "Total Experience Required": "Not specified",
+        "Location": "India"
+    },
+    {
+        "Job Title": "primary school teacher",
+        "Skill Set Required": "Teaching, Maths, Chemistry",
+        "Total Experience Required": "Not specified",
+        "Location": "India"
+    },
+    {
+        "Job Title": "computer teacher",
+        "Skill Set Required": "Teaching, Computer Science",
+        "Total Experience Required": "Not specified",
+        "Location": "India"
+    },
+    {
+        "Job Title": "back office",
+        "Skill Set Required": "MS Excel, Data Analysis, Git",
+        "Total Experience Required": "1 year in web developing",
+        "Location": "India"
+    },
+    {
+        "Job Title": "software company",
+        "Skill Set Required": "C, C++, Java, .Net, Html, Python, AI, ML, Langchain, Gen AI",
+        "Total Experience Required": "1 year in web developing",
+        "Location": "India"
+    },
+    {
+        "Job Title": "work from home",
+        "Skill Set Required": "Web Developing, MS Excel, Data Analysis, Python, AI, ML",
+        "Total Experience Required": "1 year in web developing",
+        "Location": "Unspecified"
+    },
+    {
+        "Job Title": "data entry typing",
+        "Skill Set Required": "MS Excel, Data Entry",
+        "Total Experience Required": "Not specified",
+        "Location": "India"
+    },
+    {
+        "Job Title": "part time teacher",
+        "Skill Set Required": "Teaching, C, C++, Java, .Net, Html, Python, AI, ML",
+        "Total Experience Required": "Not specified",
+        "Location": "India"
+    }
+]
